@@ -20,7 +20,12 @@
     </div>
     <div class="row">
         <div class="col">
-            <pre>{{githubProfile | json}}</pre>
+            <gp-github-profile [githubProfile]="githubProfile"></gp-github-profile>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <gp-github-repos [githubRepos]="githubRepos"></gp-github-repos>
         </div>
     </div>
 </div>

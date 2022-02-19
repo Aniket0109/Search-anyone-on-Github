@@ -6,11 +6,15 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { GithubAppComponent } from './components/github-app/github-app.component';
+import { GithubProfileComponent } from './components/github-profile/github-profile.component';
+import { GithubReposComponent } from './components/github-repos/github-repos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GithubAppComponent
+    GithubAppComponent,
+    GithubProfileComponent,
+    GithubReposComponent
   ],
   imports: [
     BrowserModule,
