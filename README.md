@@ -4,7 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Navigate to `https://github-userinformationbyaniket.herokuapp.com/`. The app will automatically reload if you change any of the source files.
+
+## Instructions
+
+The app serves the user data of `GtHub Users`.
+
+The first step is to enter the username of the user you want to find.
+
+The user's information and repositories will be displayed by a single click.
 
 ## Code scaffolding
 
