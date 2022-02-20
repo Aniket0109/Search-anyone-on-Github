@@ -1,11 +1,11 @@
 <div class="container mt-3">
     <ul class="list-group justify-content-evenly">
-        <li *ngFor="let repo of githubRepos"  class="list-group-item">
-                <h2>{{repo.name}}</h2>
+        <li *ngFor="let repo of githubRepos"  class="list-group-item" style="border: 1px solid black; margin: 2%;">
+                <h2 style="color: rgb(61, 105, 187);">{{repo.name}}</h2>
                 <div class="description">
                     {{repo.description}}
                 </div>
-                <div class="framework">
+                <div *ngIf="repo.language" class="framework" style="background-color: rgb(61, 105, 187); max-width: fit-content; color: white; padding: 0.5%; border-radius: 10%; margin: 1%; margin-left: 0%;">
                     {{repo.language}}
                 </div>
       </ul>
